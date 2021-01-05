@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F05984F3116F1F54A5616E /* libPods-MEME.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A56BCF62112F21E21816120C /* libPods-MEME.a */; };
+		9E0DF50B1D8BB7F5002A94B1 /* action.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9E0DF50A1D8BB7F5002A94B1 /* action.sks */; };
+		9E10A81F1D8BA0A5003A20B2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E10A81E1D8BA0A5003A20B2 /* GameViewController.m */; };
+		9E10A8211D8BA164003A20B2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9E10A8201D8BA164003A20B2 /* GameScene.sks */; };
+		9E10A8241D8BA458003A20B2 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E10A8231D8BA458003A20B2 /* GameScene.m */; };
+		9E10A8261D8BACAC003A20B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E10A8251D8BACAC003A20B2 /* Main.storyboard */; };
+		9E3252DC1DE3030A0049D75C /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9E3252DB1DE3030A0049D75C /* explosion.sks */; };
+		9E3A8A941E07FB48001A27FC /* MEMELib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3A8A921E07FB41001A27FC /* MEMELib.framework */; };
+		9E3A8A951E07FB48001A27FC /* MEMELib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3A8A921E07FB41001A27FC /* MEMELib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E776CFC1D8E666E00E42309 /* pac_music_coffeebreak.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF11D8E666E00E42309 /* pac_music_coffeebreak.mp3 */; };
+		9E776CFD1D8E666E00E42309 /* pac_music_gamestart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF21D8E666E00E42309 /* pac_music_gamestart.mp3 */; };
+		9E776CFE1D8E666E00E42309 /* pac_se_credit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF31D8E666E00E42309 /* pac_se_credit.mp3 */; };
+		9E776CFF1D8E666E00E42309 /* pac_se_eating_fruit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF41D8E666E00E42309 /* pac_se_eating_fruit.mp3 */; };
+		9E776D001D8E666E00E42309 /* pac_se_eating_ghost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF51D8E666E00E42309 /* pac_se_eating_ghost.mp3 */; };
+		9E776D011D8E666E00E42309 /* pac_se_eatingcokkie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF61D8E666E00E42309 /* pac_se_eatingcokkie.mp3 */; };
+		9E776D021D8E666E00E42309 /* pac_se_extend_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF71D8E666E00E42309 /* pac_se_extend_sound.mp3 */; };
+		9E776D031D8E666E00E42309 /* pac_se_ghost_movesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF81D8E666E00E42309 /* pac_se_ghost_movesound.mp3 */; };
+		9E776D041D8E666E00E42309 /* pac_se_ghost_return2home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CF91D8E666E00E42309 /* pac_se_ghost_return2home.mp3 */; };
+		9E776D051D8E666E00E42309 /* pac_se_ghost_turn2blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CFA1D8E666E00E42309 /* pac_se_ghost_turn2blue.mp3 */; };
+		9E776D061D8E666E00E42309 /* pac_se_miss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E776CFB1D8E666E00E42309 /* pac_se_miss.mp3 */; };
+		9E9536E11DED54C5004ADE00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E9536E01DED54C5004ADE00 /* GoogleService-Info.plist */; };
+		9ECAAA5E1D603F080000C7EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAA5D1D603F080000C7EB /* main.m */; };
+		9ECAAA611D603F080000C7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAA601D603F080000C7EB /* AppDelegate.m */; };
+		9ECAAA641D603F080000C7EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAA631D603F080000C7EB /* ViewController.m */; };
+		9ECAAA691D603F080000C7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECAAA681D603F080000C7EB /* Assets.xcassets */; };
+		9ECAAA6C1D603F080000C7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECAAA6A1D603F080000C7EB /* LaunchScreen.storyboard */; };
+		9ECAAA871D6057240000C7EB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECAAA861D6057240000C7EB /* CoreBluetooth.framework */; };
+		9ECAAA891D6057450000C7EB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECAAA881D6057450000C7EB /* CFNetwork.framework */; };
+		9EE1DB021DAA944500EE81BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE1DB011DAA944500EE81BA /* AVFoundation.framework */; };
+		9EE1DB041DAA958A00EE81BA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE1DB031DAA958A00EE81BA /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E3A8A961E07FB48001A27FC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E3A8A951E07FB48001A27FC /* MEMELib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75FC4FB9341459C365EDD4A6 /* Pods-MEME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEME.release.xcconfig"; path = "Pods/Target Support Files/Pods-MEME/Pods-MEME.release.xcconfig"; sourceTree = "<group>"; };
+		9E0DF50A1D8BB7F5002A94B1 /* action.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = action.sks; sourceTree = "<group>"; };
+		9E10A81D1D8BA0A5003A20B2 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9E10A81E1D8BA0A5003A20B2 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		9E10A8201D8BA164003A20B2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9E10A8221D8BA458003A20B2 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		9E10A8231D8BA458003A20B2 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		9E10A8251D8BACAC003A20B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9E3252DB1DE3030A0049D75C /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = explosion.sks; path = ../explosion.sks; sourceTree = "<group>"; };
+		9E3A8A921E07FB41001A27FC /* MEMELib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MEMELib.framework; path = "framework/device+apply/MEMELib.framework"; sourceTree = "<group>"; };
+		9E3A8A971E092CBA001A27FC /* MEME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MEME.entitlements; sourceTree = "<group>"; };
+		9E776CF11D8E666E00E42309 /* pac_music_coffeebreak.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_music_coffeebreak.mp3; path = SE/pac_music_coffeebreak.mp3; sourceTree = "<group>"; };
+		9E776CF21D8E666E00E42309 /* pac_music_gamestart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_music_gamestart.mp3; path = SE/pac_music_gamestart.mp3; sourceTree = "<group>"; };
+		9E776CF31D8E666E00E42309 /* pac_se_credit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_credit.mp3; path = SE/pac_se_credit.mp3; sourceTree = "<group>"; };
+		9E776CF41D8E666E00E42309 /* pac_se_eating_fruit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_eating_fruit.mp3; path = SE/pac_se_eating_fruit.mp3; sourceTree = "<group>"; };
+		9E776CF51D8E666E00E42309 /* pac_se_eating_ghost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_eating_ghost.mp3; path = SE/pac_se_eating_ghost.mp3; sourceTree = "<group>"; };
+		9E776CF61D8E666E00E42309 /* pac_se_eatingcokkie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_eatingcokkie.mp3; path = SE/pac_se_eatingcokkie.mp3; sourceTree = "<group>"; };
+		9E776CF71D8E666E00E42309 /* pac_se_extend_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_extend_sound.mp3; path = SE/pac_se_extend_sound.mp3; sourceTree = "<group>"; };
+		9E776CF81D8E666E00E42309 /* pac_se_ghost_movesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_ghost_movesound.mp3; path = SE/pac_se_ghost_movesound.mp3; sourceTree = "<group>"; };
+		9E776CF91D8E666E00E42309 /* pac_se_ghost_return2home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_ghost_return2home.mp3; path = SE/pac_se_ghost_return2home.mp3; sourceTree = "<group>"; };
+		9E776CFA1D8E666E00E42309 /* pac_se_ghost_turn2blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_ghost_turn2blue.mp3; path = SE/pac_se_ghost_turn2blue.mp3; sourceTree = "<group>"; };
+		9E776CFB1D8E666E00E42309 /* pac_se_miss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pac_se_miss.mp3; path = SE/pac_se_miss.mp3; sourceTree = "<group>"; };
+		9E9536E01DED54C5004ADE00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ECAA6591DDB15B100BC0331 /* message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = message.h; sourceTree = "<group>"; };
+		9ECAAA591D603F080000C7EB /* MEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECAAA5D1D603F080000C7EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ECAAA5F1D603F080000C7EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ECAAA601D603F080000C7EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ECAAA621D603F080000C7EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9ECAAA631D603F080000C7EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9ECAAA681D603F080000C7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ECAAA6B1D603F080000C7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ECAAA6D1D603F080000C7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECAAA861D6057240000C7EB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		9ECAAA881D6057450000C7EB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9EE1DB011DAA944500EE81BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9EE1DB031DAA958A00EE81BA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A56BCF62112F21E21816120C /* libPods-MEME.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MEME.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A608FE56790717A80C9C16F3 /* Pods-MEME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEME.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MEME/Pods-MEME.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECAAA561D603F080000C7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE1DB041DAA958A00EE81BA /* AudioToolbox.framework in Frameworks */,
+				9EE1DB021DAA944500EE81BA /* AVFoundation.framework in Frameworks */,
+				9ECAAA891D6057450000C7EB /* CFNetwork.framework in Frameworks */,
+				9ECAAA871D6057240000C7EB /* CoreBluetooth.framework in Frameworks */,
+				9E3A8A941E07FB48001A27FC /* MEMELib.framework in Frameworks */,
+				31F05984F3116F1F54A5616E /* libPods-MEME.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A7E2360F12D46BD2902CB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A608FE56790717A80C9C16F3 /* Pods-MEME.debug.xcconfig */,
+				75FC4FB9341459C365EDD4A6 /* Pods-MEME.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E0DF50C1D8BC48A002A94B1 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9ECAAA5F1D603F080000C7EB /* AppDelegate.h */,
+				9ECAAA601D603F080000C7EB /* AppDelegate.m */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		9E0DF50D1D8BC499002A94B1 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				9ECAAA621D603F080000C7EB /* ViewController.h */,
+				9ECAAA631D603F080000C7EB /* ViewController.m */,
+			);
+			name = Top;
+			sourceTree = "<group>";
+		};
+		9E10A81C1D8BA03C003A20B2 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9E10A81D1D8BA0A5003A20B2 /* GameViewController.h */,
+				9E10A81E1D8BA0A5003A20B2 /* GameViewController.m */,
+				9E10A8221D8BA458003A20B2 /* GameScene.h */,
+				9E10A8231D8BA458003A20B2 /* GameScene.m */,
+				9E10A8201D8BA164003A20B2 /* GameScene.sks */,
+				9E0DF50A1D8BB7F5002A94B1 /* action.sks */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		9E3252DD1DE5DE400049D75C /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				9E3252DB1DE3030A0049D75C /* explosion.sks */,
+			);
+			name = Particle;
+			sourceTree = "<group>";
+		};
+		9E776CDA1D8E65EA00E42309 /* SE */ = {
+			isa = PBXGroup;
+			children = (
+				9E776CF11D8E666E00E42309 /* pac_music_coffeebreak.mp3 */,
+				9E776CF21D8E666E00E42309 /* pac_music_gamestart.mp3 */,
+				9E776CF31D8E666E00E42309 /* pac_se_credit.mp3 */,
+				9E776CF41D8E666E00E42309 /* pac_se_eating_fruit.mp3 */,
+				9E776CF51D8E666E00E42309 /* pac_se_eating_ghost.mp3 */,
+				9E776CF61D8E666E00E42309 /* pac_se_eatingcokkie.mp3 */,
+				9E776CF71D8E666E00E42309 /* pac_se_extend_sound.mp3 */,
+				9E776CF81D8E666E00E42309 /* pac_se_ghost_movesound.mp3 */,
+				9E776CF91D8E666E00E42309 /* pac_se_ghost_return2home.mp3 */,
+				9E776CFA1D8E666E00E42309 /* pac_se_ghost_turn2blue.mp3 */,
+				9E776CFB1D8E666E00E42309 /* pac_se_miss.mp3 */,
+			);
+			name = SE;
+			sourceTree = "<group>";
+		};
+		9ECAAA501D603F080000C7EB = {
+			isa = PBXGroup;
+			children = (
+				9ECAAA5B1D603F080000C7EB /* MEME */,
+				9ECAAA5A1D603F080000C7EB /* Products */,
+				9EE1DB001DAA944400EE81BA /* Frameworks */,
+				96A7E2360F12D46BD2902CB7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECAAA5A1D603F080000C7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECAAA591D603F080000C7EB /* MEME.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECAAA5B1D603F080000C7EB /* MEME */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A8A971E092CBA001A27FC /* MEME.entitlements */,
+				9ECAAA6A1D603F080000C7EB /* LaunchScreen.storyboard */,
+				9E10A8251D8BACAC003A20B2 /* Main.storyboard */,
+				9E0DF50C1D8BC48A002A94B1 /* delegate */,
+				9E0DF50D1D8BC499002A94B1 /* Top */,
+				9E10A81C1D8BA03C003A20B2 /* Game */,
+				9E776CDA1D8E65EA00E42309 /* SE */,
+				9E3252DD1DE5DE400049D75C /* Particle */,
+				9ECAAA681D603F080000C7EB /* Assets.xcassets */,
+				9ECAAA5C1D603F080000C7EB /* Supporting Files */,
+			);
+			path = MEME;
+			sourceTree = "<group>";
+		};
+		9ECAAA5C1D603F080000C7EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E9536E01DED54C5004ADE00 /* GoogleService-Info.plist */,
+				9ECAA6591DDB15B100BC0331 /* message.h */,
+				9ECAAA6D1D603F080000C7EB /* Info.plist */,
+				9ECAAA5D1D603F080000C7EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EE1DB001DAA944400EE81BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E3A8A921E07FB41001A27FC /* MEMELib.framework */,
+				9ECAAA881D6057450000C7EB /* CFNetwork.framework */,
+				9ECAAA861D6057240000C7EB /* CoreBluetooth.framework */,
+				9EE1DB031DAA958A00EE81BA /* AudioToolbox.framework */,
+				9EE1DB011DAA944500EE81BA /* AVFoundation.framework */,
+				A56BCF62112F21E21816120C /* libPods-MEME.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECAAA581D603F080000C7EB /* MEME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECAAA701D603F080000C7EB /* Build configuration list for PBXNativeTarget "MEME" */;
+			buildPhases = (
+				275DFC909B98A3C952C5BCD1 /* [CP] Check Pods Manifest.lock */,
+				9ECAAA551D603F080000C7EB /* Sources */,
+				9ECAAA561D603F080000C7EB /* Frameworks */,
+				9ECAAA571D603F080000C7EB /* Resources */,
+				0564EBE069DC75D69CFBF10C /* [CP] Embed Pods Frameworks */,
+				8F39DEC8DE36A8F54F538208 /* [CP] Copy Pods Resources */,
+				9E3A8A961E07FB48001A27FC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MEME;
+			productName = MEME;
+			productReference = 9ECAAA591D603F080000C7EB /* MEME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECAAA511D603F080000C7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = UDONKOAPPS;
+				TargetAttributes = {
+					9ECAAA581D603F080000C7EB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7JKB5AMAKP;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9ECAAA541D603F080000C7EB /* Build configuration list for PBXProject "MEME" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECAAA501D603F080000C7EB;
+			productRefGroup = 9ECAAA5A1D603F080000C7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECAAA581D603F080000C7EB /* MEME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECAAA571D603F080000C7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E776CFF1D8E666E00E42309 /* pac_se_eating_fruit.mp3 in Resources */,
+				9ECAAA6C1D603F080000C7EB /* LaunchScreen.storyboard in Resources */,
+				9E0DF50B1D8BB7F5002A94B1 /* action.sks in Resources */,
+				9E776D061D8E666E00E42309 /* pac_se_miss.mp3 in Resources */,
+				9E776D031D8E666E00E42309 /* pac_se_ghost_movesound.mp3 in Resources */,
+				9E776D021D8E666E00E42309 /* pac_se_extend_sound.mp3 in Resources */,
+				9ECAAA691D603F080000C7EB /* Assets.xcassets in Resources */,
+				9E10A8211D8BA164003A20B2 /* GameScene.sks in Resources */,
+				9E776D041D8E666E00E42309 /* pac_se_ghost_return2home.mp3 in Resources */,
+				9E776D001D8E666E00E42309 /* pac_se_eating_ghost.mp3 in Resources */,
+				9E776CFE1D8E666E00E42309 /* pac_se_credit.mp3 in Resources */,
+				9E9536E11DED54C5004ADE00 /* GoogleService-Info.plist in Resources */,
+				9E776D011D8E666E00E42309 /* pac_se_eatingcokkie.mp3 in Resources */,
+				9E10A8261D8BACAC003A20B2 /* Main.storyboard in Resources */,
+				9E3252DC1DE3030A0049D75C /* explosion.sks in Resources */,
+				9E776D051D8E666E00E42309 /* pac_se_ghost_turn2blue.mp3 in Resources */,
+				9E776CFC1D8E666E00E42309 /* pac_music_coffeebreak.mp3 in Resources */,
+				9E776CFD1D8E666E00E42309 /* pac_music_gamestart.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0564EBE069DC75D69CFBF10C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEME/Pods-MEME-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		275DFC909B98A3C952C5BCD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F39DEC8DE36A8F54F538208 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MEME/Pods-MEME-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECAAA551D603F080000C7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E10A81F1D8BA0A5003A20B2 /* GameViewController.m in Sources */,
+				9ECAAA641D603F080000C7EB /* ViewController.m in Sources */,
+				9E10A8241D8BA458003A20B2 /* GameScene.m in Sources */,
+				9ECAAA611D603F080000C7EB /* AppDelegate.m in Sources */,
+				9ECAAA5E1D603F080000C7EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ECAAA6A1D603F080000C7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECAAA6B1D603F080000C7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ECAAA6E1D603F080000C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7JKB5AMAKP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ECAAA6F1D603F080000C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7JKB5AMAKP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECAAA711D603F080000C7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A608FE56790717A80C9C16F3 /* Pods-MEME.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework/device+apply",
+				);
+				INFOPLIST_FILE = MEME/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.udonko.PACMEME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		9ECAAA721D603F080000C7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75FC4FB9341459C365EDD4A6 /* Pods-MEME.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HIDEHIKO KONDO (7JKB5AMAKP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/framework/device+apply",
+				);
+				INFOPLIST_FILE = MEME/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.udonko.PACMEME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECAAA541D603F080000C7EB /* Build configuration list for PBXProject "MEME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECAAA6E1D603F080000C7EB /* Debug */,
+				9ECAAA6F1D603F080000C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECAAA701D603F080000C7EB /* Build configuration list for PBXNativeTarget "MEME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECAAA711D603F080000C7EB /* Debug */,
+				9ECAAA721D603F080000C7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECAAA511D603F080000C7EB /* Project object */;
+}
