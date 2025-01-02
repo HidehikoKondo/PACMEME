@@ -7,3 +7,6 @@ JINS MEME の瞬き検出機能を用いて、時間単位で瞬きの回数を�
 ## カタログIPオープン化プロジェクトの参加作品
 バンダイナムコ社が実施していたカタログIPオープン化プロジェクトで、パックマンのIPを使用。
 JINS MEMEで検出した瞬きに合わせてパックマンがパクパクする仕様。
+
+## 紹介動画
+https://www.youtube.com/watch?v=cNvUIxhd4Kg&list=PLVXuOZe0dM3SWCPxf9buwBe0MuccP65r_&index=4
